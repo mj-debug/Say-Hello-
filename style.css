@@ -1,0 +1,85 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /*background-color: #22BEE4;*/
+    font-size: 1.1em;
+    font-family: sans-serif;
+    /*background: linear-gradient(to right, color-1, color-2, color-3);*/
+    background: linear-gradient(25deg, #22BEE4, #8269F0, #D820FC);
+}
+form{
+    background-color: #FEFEFE;
+    width: 30%;
+    height: auto;
+    margin-top: 1.2em;
+    margin-left: 33em;
+    border-radius: 10px;
+    text-align: center;
+}
+form h2{
+    padding: 1em;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+form div{
+    padding: 1em;
+}
+form div label{
+    font-size: 0.7em;
+}
+form div input{
+    padding: 1.5em 7em;
+    outline: none;
+}
+form .name label{
+    margin-right: 25em;
+}
+form .name input{
+    border: none;
+    border-bottom: 1px solid;
+}
+form .mail label{
+    margin-right: 27em;
+}
+form .mail input{
+    border: none;
+    border-bottom: 1px solid;
+}
+form .service label{
+    margin-right: 22em;
+}
+form .service select{
+    padding: 1.5em 8.9em;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+}
+form .budget label{
+    margin-right: 27em;
+}
+form .budget select{
+    padding: 1.5em 9.7em;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+}
+form .msg label{
+    margin-right: 26em;
+}
+form .msg textarea{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+}
+form .btn button{
+    padding: 1em 11.3em;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 0.8em;
+   background: linear-gradient(to right, #22BEE4, #8269F0, #D820FC);
+}
